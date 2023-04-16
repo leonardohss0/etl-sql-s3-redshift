@@ -1,0 +1,2 @@
+airflow==0.6
+apache_airflow_providers_sqlite==3.3.1
