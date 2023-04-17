@@ -47,37 +47,24 @@ docker-compose up -d
 
 ## Folder Structure
 The project follows the following folder structure:
-  
-etl-sql-s3-redshift/
  
-├── dags/
- 
-│   ├── app.py
- 
+`
+etl-sql-s3-redshift/ 
+├── dags/ 
+│   ├── app.py 
+│   └── ... 
+├── logs/ 
+│   └── ... 
+├── plugins/ 
+│   └── ... 
+├── db/ 
+│   ├── DDL_20230416.sql 
 │   └── ...
- 
-├── logs/
- 
-│   └── ...
- 
-├── plugins/
- 
-│   └── ...
- 
-├── db/
- 
-│   ├── DDL_20230416.sql
- 
-│   └── ...
- 
-├── docker-compose.yml
- 
+├── docker-compose.yml 
 ├── Dockerfile
- 
 ├── requirements.txt
- 
 └── README.md
- 
+`
 
 ## Usage
 To use this project, follow the steps mentioned in the "Setup" section to configure the necessary connections, update the DAGs with your specific details, and trigger the DAG in Apache Airflow to start the ETL process.
