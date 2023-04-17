@@ -50,15 +50,15 @@ The project follows the following folder structure:
  
 etl-sql-s3-redshift/ <br>
 ├── dags/ <br>
-│   ├── app.py <br>
-│   └── ... <br>
+ │   ├── app.py <br>
+ │   └── ... <br>
 ├── logs/ <br>
-│   └── ... <br>
+ │   └── ... <br>
 ├── plugins/ <br>
-│   └── ... <br>
+ │   └── ... <br>
 ├── db/ <br>
-│   ├── DDL_20230416.sql <br>
-│   └── ...<br>
+ │   ├── DDL_20230416.sql <br>
+ │   └── ...<br>
 ├── docker-compose.yml <br>
 ├── Dockerfile<br>
 ├── requirements.txt<br>
