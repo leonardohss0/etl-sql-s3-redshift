@@ -50,20 +50,13 @@ The project follows the following folder structure:
  
 etl-sql-s3-redshift/ <br>
 ├── dags/ <br>
- │   ├── app.py <br>
- │   └── ... <br>
 ├── logs/ <br>
- │   └── ... <br>
 ├── plugins/ <br>
- │   └── ... <br>
 ├── db/ <br>
- │   ├── DDL_20230416.sql <br>
- │   └── ...<br>
 ├── docker-compose.yml <br>
 ├── Dockerfile<br>
 ├── requirements.txt<br>
 └── README.md<br>
-
 
 ## Usage
 To use this project, follow the steps mentioned in the "Setup" section to configure the necessary connections, update the DAGs with your specific details, and trigger the DAG in Apache Airflow to start the ETL process.
